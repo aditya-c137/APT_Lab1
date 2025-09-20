@@ -34,7 +34,8 @@ int main()
 	ECE_Buzzy buzzy(WIDTH/2, 0, 0.2);
 	
 	std::vector<ECE_Enemy *> enemyGrid;
-	enemyGrid.push_back(new ECE_Enemy(100, 400, 0.2));
+	enemyGrid.push_back(new ECE_Enemy(100, 400, 0.2, 1));
+	enemyGrid.push_back(new ECE_Enemy(200, 400, 0.2, 1));
 
 	bool isStartScreen = true;
 
@@ -106,10 +107,18 @@ int main()
 		*/
 		Time dt = clock.restart();
 		buzzy.update(dt);
+		for (int i = 0; i < enemyGrid.size(); i++) {
+			enemyGrid[i]->update(dt);
+		}
+		//for (const ECE_Enemy* enemy : enemyGrid) {
+
+		//}
 
 		window.clear();
 		window.draw(spriteBackground);
-		window.draw(* enemyGrid[0]);
+		for (int i = 0; i < enemyGrid.size(); i++) {
+			window.draw(*enemyGrid[i]);
+		}
 		//window.draw(ene);
 		window.draw(buzzy);
 		window.display();
