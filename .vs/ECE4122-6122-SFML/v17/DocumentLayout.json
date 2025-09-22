@@ -3,20 +3,32 @@
   "WorkspaceRootPath": "C:\\Users\\adity\\OneDrive\\Pictures\\GTech\\FALL_2025\\APT\\Lab1-1\\ECE4122-6122-SFML\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\adity\\OneDrive\\Pictures\\GTech\\FALL_2025\\APT\\Lab1-1\\ECE4122-6122-SFML\\Lab1\\code\\enemy.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Lab1\\code\\enemy.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\adity\\OneDrive\\Pictures\\GTech\\FALL_2025\\APT\\Lab1-1\\ECE4122-6122-SFML\\Lab1\\code\\buzzy.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Lab1\\code\\buzzy.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\adity\\OneDrive\\Pictures\\GTech\\FALL_2025\\APT\\Lab1-1\\ECE4122-6122-SFML\\Lab1\\code\\BuzzyDefender.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Lab1\\code\\BuzzyDefender.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\adity\\OneDrive\\Pictures\\GTech\\FALL_2025\\APT\\Lab1-1\\ECE4122-6122-SFML\\Lab1\\code\\enemy.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Lab1\\code\\enemy.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\adity\\OneDrive\\Pictures\\GTech\\FALL_2025\\APT\\Lab1-1\\ECE4122-6122-SFML\\Lab1\\code\\BuzzyDefender.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Lab1\\code\\BuzzyDefender.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\adity\\OneDrive\\Pictures\\GTech\\FALL_2025\\APT\\Lab1-1\\ECE4122-6122-SFML\\Lab1\\code\\enemy.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Lab1\\code\\enemy.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\adity\\OneDrive\\Pictures\\GTech\\FALL_2025\\APT\\Lab1-1\\ECE4122-6122-SFML\\Lab1\\code\\LazerBlast.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Lab1\\code\\LazerBlast.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\adity\\OneDrive\\Pictures\\GTech\\FALL_2025\\APT\\Lab1-1\\ECE4122-6122-SFML\\Lab1\\code\\LazerBlast.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Lab1\\code\\LazerBlast.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\adity\\OneDrive\\Pictures\\GTech\\FALL_2025\\APT\\Lab1-1\\ECE4122-6122-SFML\\Lab1\\code\\buzzy.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Lab1\\code\\buzzy.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\adity\\OneDrive\\Pictures\\GTech\\FALL_2025\\APT\\Lab1-1\\ECE4122-6122-SFML\\Lab1\\code\\buzzy.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Lab1\\code\\buzzy.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\adity\\OneDrive\\Pictures\\GTech\\FALL_2025\\APT\\Lab1-1\\ECE4122-6122-SFML\\Chapter07\\Ball.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -35,10 +47,6 @@
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Chapter07\\Bat.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\adity\\OneDrive\\Pictures\\GTech\\FALL_2025\\APT\\Lab1-1\\ECE4122-6122-SFML\\Lab1\\code\\buzzy.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Lab1\\code\\buzzy.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\adity\\OneDrive\\Pictures\\GTech\\FALL_2025\\APT\\Lab1-1\\ECE4122-6122-SFML\\Chapter07\\Pong.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Chapter07\\Pong.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
@@ -54,23 +62,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 167,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "buzzy.h",
-              "DocumentMoniker": "C:\\Users\\adity\\OneDrive\\Pictures\\GTech\\FALL_2025\\APT\\Lab1-1\\ECE4122-6122-SFML\\Lab1\\code\\buzzy.h",
-              "RelativeDocumentMoniker": "Lab1\\code\\buzzy.h",
-              "ToolTip": "C:\\Users\\adity\\OneDrive\\Pictures\\GTech\\FALL_2025\\APT\\Lab1-1\\ECE4122-6122-SFML\\Lab1\\code\\buzzy.h",
-              "RelativeToolTip": "Lab1\\code\\buzzy.h",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAABkAAAACAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-09-16T21:26:15.898Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 12,
               "Title": "CMakeLists.txt",
               "DocumentMoniker": "C:\\Users\\adity\\OneDrive\\Pictures\\GTech\\FALL_2025\\APT\\Lab1-1\\ECE4122-6122-SFML\\CMakeLists.txt",
               "RelativeDocumentMoniker": "CMakeLists.txt",
@@ -78,11 +74,38 @@
               "RelativeToolTip": "CMakeLists.txt",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAACAAAAAVAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
-              "WhenOpened": "2025-09-16T02:35:42.689Z"
+              "WhenOpened": "2025-09-16T02:35:42.689Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "buzzy.cpp",
+              "DocumentMoniker": "C:\\Users\\adity\\OneDrive\\Pictures\\GTech\\FALL_2025\\APT\\Lab1-1\\ECE4122-6122-SFML\\Lab1\\code\\buzzy.cpp",
+              "RelativeDocumentMoniker": "Lab1\\code\\buzzy.cpp",
+              "ToolTip": "C:\\Users\\adity\\OneDrive\\Pictures\\GTech\\FALL_2025\\APT\\Lab1-1\\ECE4122-6122-SFML\\Lab1\\code\\buzzy.cpp",
+              "RelativeToolTip": "Lab1\\code\\buzzy.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-09-16T21:24:50.526Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
+              "Title": "buzzy.h",
+              "DocumentMoniker": "C:\\Users\\adity\\OneDrive\\Pictures\\GTech\\FALL_2025\\APT\\Lab1-1\\ECE4122-6122-SFML\\Lab1\\code\\buzzy.h",
+              "RelativeDocumentMoniker": "Lab1\\code\\buzzy.h",
+              "ToolTip": "C:\\Users\\adity\\OneDrive\\Pictures\\GTech\\FALL_2025\\APT\\Lab1-1\\ECE4122-6122-SFML\\Lab1\\code\\buzzy.h",
+              "RelativeToolTip": "Lab1\\code\\buzzy.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-09-16T21:26:15.898Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "Bat.h",
               "DocumentMoniker": "C:\\Users\\adity\\OneDrive\\Pictures\\GTech\\FALL_2025\\APT\\Lab1-1\\ECE4122-6122-SFML\\Chapter07\\Bat.h",
               "RelativeDocumentMoniker": "Chapter07\\Bat.h",
@@ -90,11 +113,12 @@
               "RelativeToolTip": "Chapter07\\Bat.h",
               "ViewState": "AQIAAAkAAAAAAAAAAAAAAAIAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-09-16T21:52:42.856Z"
+              "WhenOpened": "2025-09-16T21:52:42.856Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 10,
               "Title": "Bat.cpp",
               "DocumentMoniker": "C:\\Users\\adity\\OneDrive\\Pictures\\GTech\\FALL_2025\\APT\\Lab1-1\\ECE4122-6122-SFML\\Chapter07\\Bat.cpp",
               "RelativeDocumentMoniker": "Chapter07\\Bat.cpp",
@@ -102,11 +126,12 @@
               "RelativeToolTip": "Chapter07\\Bat.cpp",
               "ViewState": "AQIAAAYAAAAAAAAAAAAAAAMAAAAkAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-09-16T16:29:51.079Z"
+              "WhenOpened": "2025-09-16T16:29:51.079Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 7,
               "Title": "Ball.cpp",
               "DocumentMoniker": "C:\\Users\\adity\\OneDrive\\Pictures\\GTech\\FALL_2025\\APT\\Lab1-1\\ECE4122-6122-SFML\\Chapter07\\Ball.cpp",
               "RelativeDocumentMoniker": "Chapter07\\Ball.cpp",
@@ -114,24 +139,12 @@
               "RelativeToolTip": "Chapter07\\Ball.cpp",
               "ViewState": "AQIAACEAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-09-17T17:06:29.696Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "buzzy.cpp",
-              "DocumentMoniker": "C:\\Users\\adity\\OneDrive\\Pictures\\GTech\\FALL_2025\\APT\\Lab1-1\\ECE4122-6122-SFML\\Lab1\\code\\buzzy.cpp",
-              "RelativeDocumentMoniker": "Lab1\\code\\buzzy.cpp",
-              "ToolTip": "C:\\Users\\adity\\OneDrive\\Pictures\\GTech\\FALL_2025\\APT\\Lab1-1\\ECE4122-6122-SFML\\Lab1\\code\\buzzy.cpp",
-              "RelativeToolTip": "Lab1\\code\\buzzy.cpp",
-              "ViewState": "AQIAACcAAAAAAAAAAAAAAAkAAAAaAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-09-16T21:24:50.526Z",
+              "WhenOpened": "2025-09-17T17:06:29.696Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 8,
               "Title": "Ball.h",
               "DocumentMoniker": "C:\\Users\\adity\\OneDrive\\Pictures\\GTech\\FALL_2025\\APT\\Lab1-1\\ECE4122-6122-SFML\\Chapter07\\Ball.h",
               "RelativeDocumentMoniker": "Chapter07\\Ball.h",
@@ -139,11 +152,12 @@
               "RelativeToolTip": "Chapter07\\Ball.h",
               "ViewState": "AQIAAAMAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-09-17T17:08:04.17Z"
+              "WhenOpened": "2025-09-17T17:08:04.17Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 11,
               "Title": "Pong.cpp",
               "DocumentMoniker": "C:\\Users\\adity\\OneDrive\\Pictures\\GTech\\FALL_2025\\APT\\Lab1-1\\ECE4122-6122-SFML\\Chapter07\\Pong.cpp",
               "RelativeDocumentMoniker": "Chapter07\\Pong.cpp",
@@ -151,50 +165,79 @@
               "RelativeToolTip": "Chapter07\\Pong.cpp",
               "ViewState": "AQIAAE4AAAAAAAAAAAAAAC4AAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-09-16T02:41:29.315Z"
+              "WhenOpened": "2025-09-16T02:41:29.315Z",
+              "EditorCaption": ""
             }
           ]
         },
         {
           "DockedWidth": 233,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
+              "Title": "LazerBlast.h",
+              "DocumentMoniker": "C:\\Users\\adity\\OneDrive\\Pictures\\GTech\\FALL_2025\\APT\\Lab1-1\\ECE4122-6122-SFML\\Lab1\\code\\LazerBlast.h",
+              "RelativeDocumentMoniker": "Lab1\\code\\LazerBlast.h",
+              "ToolTip": "C:\\Users\\adity\\OneDrive\\Pictures\\GTech\\FALL_2025\\APT\\Lab1-1\\ECE4122-6122-SFML\\Lab1\\code\\LazerBlast.h",
+              "RelativeToolTip": "Lab1\\code\\LazerBlast.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-09-21T20:50:11.818Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "LazerBlast.cpp",
+              "DocumentMoniker": "C:\\Users\\adity\\OneDrive\\Pictures\\GTech\\FALL_2025\\APT\\Lab1-1\\ECE4122-6122-SFML\\Lab1\\code\\LazerBlast.cpp",
+              "RelativeDocumentMoniker": "Lab1\\code\\LazerBlast.cpp",
+              "ToolTip": "C:\\Users\\adity\\OneDrive\\Pictures\\GTech\\FALL_2025\\APT\\Lab1-1\\ECE4122-6122-SFML\\Lab1\\code\\LazerBlast.cpp",
+              "RelativeToolTip": "Lab1\\code\\LazerBlast.cpp",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAwAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-09-21T20:49:44.467Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "enemy.h",
               "DocumentMoniker": "C:\\Users\\adity\\OneDrive\\Pictures\\GTech\\FALL_2025\\APT\\Lab1-1\\ECE4122-6122-SFML\\Lab1\\code\\enemy.h",
               "RelativeDocumentMoniker": "Lab1\\code\\enemy.h",
               "ToolTip": "C:\\Users\\adity\\OneDrive\\Pictures\\GTech\\FALL_2025\\APT\\Lab1-1\\ECE4122-6122-SFML\\Lab1\\code\\enemy.h",
               "RelativeToolTip": "Lab1\\code\\enemy.h",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAHAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2025-09-17T10:22:44.328Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "enemy.cpp",
               "DocumentMoniker": "C:\\Users\\adity\\OneDrive\\Pictures\\GTech\\FALL_2025\\APT\\Lab1-1\\ECE4122-6122-SFML\\Lab1\\code\\enemy.cpp",
               "RelativeDocumentMoniker": "Lab1\\code\\enemy.cpp",
               "ToolTip": "C:\\Users\\adity\\OneDrive\\Pictures\\GTech\\FALL_2025\\APT\\Lab1-1\\ECE4122-6122-SFML\\Lab1\\code\\enemy.cpp",
               "RelativeToolTip": "Lab1\\code\\enemy.cpp",
-              "ViewState": "AQIAAA8AAAAAAAAAAAAAABEAAAABAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-09-17T10:22:43.648Z"
+              "WhenOpened": "2025-09-17T10:22:43.648Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "BuzzyDefender.cpp",
               "DocumentMoniker": "C:\\Users\\adity\\OneDrive\\Pictures\\GTech\\FALL_2025\\APT\\Lab1-1\\ECE4122-6122-SFML\\Lab1\\code\\BuzzyDefender.cpp",
               "RelativeDocumentMoniker": "Lab1\\code\\BuzzyDefender.cpp",
               "ToolTip": "C:\\Users\\adity\\OneDrive\\Pictures\\GTech\\FALL_2025\\APT\\Lab1-1\\ECE4122-6122-SFML\\Lab1\\code\\BuzzyDefender.cpp",
               "RelativeToolTip": "Lab1\\code\\BuzzyDefender.cpp",
-              "ViewState": "AQIAAEwAAAAAAAAAAAAAACUAAAAlAAAA",
+              "ViewState": "AQIAAGMAAAAAAAAAAAAAAHkAAAAeAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-09-16T04:04:11.531Z"
+              "WhenOpened": "2025-09-16T04:04:11.531Z",
+              "EditorCaption": ""
             }
           ]
         }

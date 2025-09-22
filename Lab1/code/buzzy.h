@@ -7,7 +7,7 @@ class ECE_Buzzy : public Sprite
 {
 public:
 	ECE_Buzzy(float startX, float startY, float scale);
-	FloatRect getPosition();
+	Vector2f getPosition();
 	void moveLeft();
 	void moveRight();
 	void stopLeft();

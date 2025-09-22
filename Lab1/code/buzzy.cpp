@@ -1,4 +1,5 @@
 #include "buzzy.h"
+#include <iostream>
 
 #define WIDTH	600
 #define HEIGHT	800
@@ -11,13 +12,17 @@ ECE_Buzzy::ECE_Buzzy(float startX, float startY, float scale)
 	this->setScale(textureScale, textureScale);
 	buzzyPos.x = startX - (getGlobalBounds().width / 2);
 	buzzyPos.y = startY;
+	std::cout << startX << " "
+		<< startY << " "
+		<< buzzyPos.x << " "
+		<< buzzyPos.y << std::endl;
 	this->setPosition(buzzyPos);
 	
 }
 
-FloatRect ECE_Buzzy::getPosition()
+Vector2f ECE_Buzzy::getPosition()
 {
-	return FloatRect();
+	return buzzyPos;
 }
 
 void ECE_Buzzy::moveLeft()
