@@ -44,8 +44,11 @@ int main()
 	ECE_Buzzy buzzy(WIDTH/2, 0, 0.2);
 	
 	std::vector<ECE_Enemy *> enemyGrid;
-	enemyGrid.push_back(new ECE_Enemy(100, 400, 0.2, 1));
-	enemyGrid.push_back(new ECE_Enemy(200, 400, 0.2, 1));
+	for (int j = 300; j < 800; j += 100) {
+		for (int i = 0; i < 450; i += 100) {
+			enemyGrid.push_back(new ECE_Enemy(i, j, 0.2, j % 200 == 0 ? -1 : 1));
+		}
+	}
 
 	std::list<ECE_LazerBlast *> lazerList; //empty list of lazers
 	const int MAX_LAZERS = 7; //Upper bound on maximum allowable lazers
@@ -151,6 +154,45 @@ int main()
 			}
 		}
 
+		// Handle collisions
+		for (auto it = lazerList.begin(); it != lazerList.end();)
+		{
+		//for (auto it = lazerList.begin(); it != lazerList.end(); ++it) {
+			bool collisionIt = false;
+			for (auto ene = enemyGrid.begin(); ene != enemyGrid.end();) {
+				bool collision = (*it)->detectCollision(**ene);
+				if (collision)
+				{
+					std::cout << "Enemy hit!!" << std::endl;
+					delete* ene;
+					delete* it;
+					it = lazerList.erase(it);
+					collisionIt = true;
+					--currentLazers;
+					if (ene != enemyGrid.end() - 1)
+					{
+						ene = enemyGrid.erase(ene);
+					}
+					else {
+						enemyGrid.erase(ene);
+						break;
+					}
+					break;
+				}
+				else {
+					++ene;
+				}
+			}
+			if (!collisionIt && !lazerList.empty())
+			{
+				++it;
+			}
+			else if (lazerList.empty()) {
+				break;
+			}
+		}
+
+		// Draw frames
 		window.clear();
 		window.draw(spriteBackground);
 		for (int i = 0; i < enemyGrid.size(); i++) {

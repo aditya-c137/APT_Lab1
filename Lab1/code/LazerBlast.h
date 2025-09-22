@@ -12,6 +12,7 @@ public:
 	void disable();
 	void setShot(bool fired);
 	void update(Time dt);
+	bool detectCollision(const Sprite& obj);
 
 private:
 	Vector2f lazerPos;

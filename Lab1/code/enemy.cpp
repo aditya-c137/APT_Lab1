@@ -12,7 +12,7 @@ ECE_Enemy::ECE_Enemy(float startX, float startY, float scale, int32_t initialDir
 	enemyTexture.loadFromFile("graphics/clemson_tigers-nobg-sq.png");
 	this->setTexture(enemyTexture);
 	this->setScale(textureScale, textureScale);
-	enemyPos.x = startX - (getGlobalBounds().width / 2);
+	enemyPos.x = startX;// -(getGlobalBounds().width / 2);
 	enemyPos.y = startY;
 	this->setPosition(enemyPos);
 }
