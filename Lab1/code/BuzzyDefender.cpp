@@ -184,6 +184,7 @@ int main()
 				// **ADD code here
 				// 
 				eneLazList.push_back(
+						// TODO: add flag to choose the enemy sprite
 						new ECE_LazerBlast(
 								enemyGrid[0]->getPosition().x + enemyGrid[0]->getGlobalBounds().width,
 								enemyGrid[0]->getPosition().y + enemyGrid[0]->getGlobalBounds().height
