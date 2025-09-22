@@ -37,9 +37,6 @@ int main()
 	hud.setFillColor(Color::White);
 
 	Clock clock;
-	Clock lazerTimer;
-	Time lazerDt;
-	const float LAZER_TMOUT = 0.15f;
 
 	ECE_Buzzy buzzy(WIDTH/2, 0, 0.2);
 	
@@ -52,13 +49,27 @@ int main()
 
 	std::list<ECE_LazerBlast *> lazerList; //empty list of lazers
 	const int MAX_LAZERS = 7; //Upper bound on maximum allowable lazers
-	int currentLazers = 0; //even though lazerList.size is possible, this is 
-	// used to track the active lazers
+	//even though lazerList.size is possible, this is
+	//used to track the active lazers
+	int currentLazers = 0;
+	Clock lazerTimer;
+	Time lazerDt;
+	const float LAZER_TMOUT = 0.15f;
+
+	//Enemy lazer list init
+	std::list<ECE_LazerBlast *> eneLazList;
+	const int MAX_ENE_LAZS = 3;
+	int currentEneLazs = 0;
+	Clock eneLazTimer;
+	Time eneLazDt;
+	const float ENE_LAZ_TMOUT = 0.25f;
 
 	bool isStartScreen = true;
+	bool gameOverScreen = false;
 
 	while (window.isOpen()) {
 		lazerDt += lazerTimer.restart();
+		eneLazDt += eneLazTimer.restart();
 		/*
 		Handle the player input
 		*********************************************************************
@@ -77,6 +88,44 @@ int main()
 			}
 		}
 
+		if (Keyboard::isKeyPressed(Keyboard::Escape)) {
+			window.close();
+		}
+
+		if (gameOverScreen)
+		{
+				// Include cleanup code here
+				// clear enemyGrid and recreate all the enemies, clear both lazer buffer , reset buzzy position
+				eneLazList.clear();
+				lazerList.clear();
+				enemyGrid.clear();
+				// Calculate offset based on buzzy size
+				float offset = buzzy.getGlobalBounds().width / 2;
+				buzzy.setPosition(WIDTH/2 - offset, 0);
+				for (int j = 300; j < 800; j += 100) {
+						for (int i = 0; i < 450; i += 100) {
+								enemyGrid.push_back(new ECE_Enemy(i, j, 0.2, j % 200 == 0 ? -1 : 1));
+						}
+				}
+				std::stringstream hudgos;
+				hudgos << "Game Over!!! Buzzy was hit!" << std::endl
+											<< "Click Enter to start over!!" << std::endl
+											<< "Or Escape to exit the game." << std::endl;
+				hud.setString(hudgos.str());
+				FloatRect msgDims = hud.getLocalBounds();
+				hud.setPosition((WIDTH - msgDims.width) / 2, (HEIGHT - msgDims.height) / 2);
+
+				window.clear();
+				window.draw(spriteBackground);
+				window.draw(hud);
+				window.display();
+				if (Keyboard::isKeyPressed(Keyboad::Enter)) {
+						isStartScreen = true;
+						gameOverScreen = false;
+				}
+				continue;
+		}
+
 		if (isStartScreen) {
 			std::stringstream hudss;
 			hudss << "BuzzyDefender!!" << std::endl;
@@ -92,11 +141,6 @@ int main()
 				isStartScreen = false;
 			}
 			continue;
-		}
-
-
-		if (Keyboard::isKeyPressed(Keyboard::Escape)) {
-			window.close();
 		}
 
 		if (Keyboard::isKeyPressed(Keyboard::Left))
@@ -133,6 +177,21 @@ int main()
 			}
 		}
 
+		//No input but determine enemy fire anyways code will determine the input
+		if (eneLazDt.asSeconds() > ENE_LAZ_TMOUT && currentEneLazs < MAX_ENE_LAZS)
+		{
+				// TODO: add code to choose which enemy/enemies fire
+				// **ADD code here
+				// 
+				eneLazList.push_back(
+						new ECE_LazerBlast(
+								enemyGrid[0]->getPosition().x + enemyGrid[0]->getGlobalBounds().width,
+								enemyGrid[0]->getPosition().y + enemyGrid[0]->getGlobalBounds().height
+						)
+				);
+				eneLazDt = Time::Zero;
+				++currentEneLazs;
+		}
 		/*
 		Update game frames
 		*********************************************************************
@@ -152,6 +211,27 @@ int main()
 			{
 				(*it)->update(dt);
 			}
+		}
+
+		for (auto it = eneLazList.begin(); it != eneLazList.end(); ++it)
+		{
+				(*it)->update(dt);
+		}
+
+		//Handle enemy lazer to buzzy collisions
+		for (auto it = eneLazList.begin(); it != eneLazList.end();)
+		{
+				if ((*it)->detectCollision(buzzy))
+				{
+						std::cout << "Buzzy hit!\n";
+						//signal to cleanup everything and move to gameover screen
+						gameOverScreen = true;
+				}
+		}
+
+		if (gameOverScreen)
+		{
+				continue;
 		}
 
 		// Handle collisions
