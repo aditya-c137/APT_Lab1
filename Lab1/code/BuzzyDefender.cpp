@@ -1,3 +1,5 @@
+
+
 #include <SFML/Graphics.hpp>
 #include <sstream>
 #include <stdlib.h>
@@ -15,8 +17,8 @@
 #define ENEMY_START_X	0
 #define ENEMY_MAX_X		600
 //Upper bound on maximum allowable lazers
-#define MAX_LAZERS		2
-#define LAZER_TMOUT		0.15f
+#define MAX_LAZERS		3
+#define LAZER_TMOUT		0.25f
 #define MAX_ENE_LAZS	3
 #define ENE_LAZ_TMOUT   0.45f
 
