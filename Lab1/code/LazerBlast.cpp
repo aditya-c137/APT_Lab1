@@ -1,3 +1,15 @@
+/*
+Author: Aditya Borse
+Class: ECE6122 (section A)
+Last Date Modified: 09-22-2025
+
+Description:
+
+Implements functions required by lazer bullets fired by buzzy and enemies
+Mainly sets texture and updates position of the lazers
+Checks for collision with the requested sprite
+
+*/
 #include "LazerBlast.h"
 #include <iostream>
 
@@ -21,7 +33,7 @@ ECE_LazerBlast::ECE_LazerBlast(float startX, float startY, bool enemyLazer)
 		setRotation(270);
 		setScale(textureScale, textureScale);
 	}
-	lazerPos.x = startX; // -(getGlobalBounds().width / 2);
+	lazerPos.x = startX;
 	lazerPos.y = startY;
 	setPosition(lazerPos);
 
@@ -72,16 +84,10 @@ bool ECE_LazerBlast::detectCollision(const Sprite& obj)
 		|| (lazX + lazW > objX && lazX + lazW < objX + objW)
 		) {
 		if (lazY > objY && lazY < objY + objH) {
-			//std::cout << objX << "\t" << objY << "\t" << objW << "\t" << objH
-			//	<< "\n" << lazX << "\t" << lazY << "\t" << lazW << "\t" << lazH
-			//	<< std::endl;
 			return true;
 		}
 		else if (lazY + lazH > objY && lazY + lazH < objY + objH)
 		{
-			//std::cout << objX << "\t" << objY << "\t" << objW << "\t" << objH
-			//	<< "\n" << lazX << "\t" << lazY << "\t" << lazW << "\t" << lazH
-			//	<< std::endl;
 			return true;
 		}
 	}

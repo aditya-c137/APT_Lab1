@@ -1,5 +1,16 @@
+/*
+Author: Aditya Borse
+Class: ECE6122 (section A)
+Last Date Modified: 09-22-2025
+
+Description:
+
+Implements functions required by buzzy the main character
+Mainly sets texture and updates position of buzzy
+
+*/
+
 #include "buzzy.h"
-#include <iostream>
 
 #define WIDTH	600
 #define HEIGHT	800
@@ -12,10 +23,6 @@ ECE_Buzzy::ECE_Buzzy(float startX, float startY, float scale)
 	this->setScale(textureScale, textureScale);
 	buzzyPos.x = startX - (getGlobalBounds().width / 2);
 	buzzyPos.y = startY;
-	std::cout << startX << " "
-		<< startY << " "
-		<< buzzyPos.x << " "
-		<< buzzyPos.y << std::endl;
 	this->setPosition(buzzyPos);
 	
 }

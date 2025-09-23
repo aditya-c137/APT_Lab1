@@ -1,5 +1,15 @@
+/*
+Author: Aditya Borse
+Class: ECE6122 (section A)
+Last Date Modified: 09-22-2025
+
+Description:
+
+Implements functions required by buzzy's enemies
+Mainly sets texture and updates position of enemy
+
+*/
 #include "enemy.h"
-//#include <iostream>
 
 #define WIDTH 600
 #define HEIGHT 800
@@ -12,14 +22,13 @@ ECE_Enemy::ECE_Enemy(float startX, float startY, float scale, int32_t initialDir
 	enemyTexture.loadFromFile("graphics/clemson_tigers-nobg-sq.png");
 	this->setTexture(enemyTexture);
 	this->setScale(textureScale, textureScale);
-	enemyPos.x = startX;// -(getGlobalBounds().width / 2);
+	enemyPos.x = startX;
 	enemyPos.y = startY;
 	this->setPosition(enemyPos);
 }
 
 void ECE_Enemy::update(Time dt)
 {
-	//std::cout << "MoveUpTo: " << moveUpTo << " pos.y: " << getPosition().y << std::endl;
 	if ((enemyDir == -1 && enemyPos.x > 0)
 		|| (enemyDir == 1 && enemyPos.x < WIDTH - getGlobalBounds().width))
 	{

@@ -1,4 +1,14 @@
 #pragma once
+/*
+Author: Aditya Borse
+Class: ECE6122 (section A)
+Last Date Modified: 09-22-2025
+
+Description:
+
+Declares lazer bullet class and required members
+
+*/
 #include <SFML/Graphics.hpp>
 
 using namespace sf;
