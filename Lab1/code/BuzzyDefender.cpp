@@ -225,18 +225,15 @@ int main()
 			}
 		}
 
-		//No input but determine enemy fire anyways code will determine the input
+		//No input but determine enemy fire here
 		if (!enemyGrid.empty() && eneLazDt.asSeconds() > ENE_LAZ_TMOUT && currentEneLazs < MAX_ENE_LAZS)
 		{
-			// TODO: add code to choose which enemy/enemies fire
-			// **ADD code here
-			// 
 			int index = rand() % enemyGrid.size();
 			eneLazList.push_back(
 				// TODO: add flag to choose the enemy sprite
 				new ECE_LazerBlast(
-					enemyGrid[index]->getPosition().x + enemyGrid[0]->getGlobalBounds().width,
-					enemyGrid[index]->getPosition().y + enemyGrid[0]->getGlobalBounds().height,
+					enemyGrid[index]->getPosition().x + enemyGrid[0]->getGlobalBounds().width / 4,
+					enemyGrid[index]->getPosition().y + enemyGrid[0]->getGlobalBounds().height / 1.5f,
 					true
 				)
 			);
