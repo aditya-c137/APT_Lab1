@@ -32,3 +32,5 @@ link_directories(${PROJECT_SOURCE_DIR}/../SFML/lib)
 # Link the executable to the libraries in the lib directory
 target_link_libraries(Lab1 PUBLIC sfml-graphics sfml-system sfml-window)# sfml-audio ${OPENAL_LIBRARY})
 
+file(COPY "${PROJECT_SOURCE_DIR}/graphics" DESTINATION "${COMMON_OUTPUT_DIR}/bin/")
+file(COPY "${PROJECT_SOURCE_DIR}/fonts" DESTINATION "${COMMON_OUTPUT_DIR}/bin/")
