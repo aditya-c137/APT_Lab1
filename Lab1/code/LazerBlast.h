@@ -6,7 +6,7 @@ using namespace sf;
 class ECE_LazerBlast : public Sprite
 {
 public:
-	ECE_LazerBlast(float startX, float startY);
+	ECE_LazerBlast(float startX, float startY, bool enemyLazer = false);
 	Vector2f getPosition();
 	bool isCollision();
 	void disable();
@@ -20,4 +20,5 @@ private:
 	float lazerSpeed = 700.0f;
 	float textureScale;
 	bool isLazerFired = false;
+	bool isEnemyLazer = false;
 };

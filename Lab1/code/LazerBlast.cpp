@@ -4,13 +4,23 @@
 #define WIDTH 600
 #define HEIGHT 800
 
-ECE_LazerBlast::ECE_LazerBlast(float startX, float startY) 
-: textureScale(0.15)
+ECE_LazerBlast::ECE_LazerBlast(float startX, float startY, bool enemyLazer) 
+: textureScale(0.15), isEnemyLazer(enemyLazer)
 {
-	lazerTexture.loadFromFile("graphics/flameLazer.png");
-	setTexture(lazerTexture);
-	setRotation(90);
-	setScale(textureScale, textureScale + 0.25);
+	if (!isEnemyLazer) 
+	{
+		lazerTexture.loadFromFile("graphics/flameLazer.png");
+		setTexture(lazerTexture);
+		setRotation(90);
+		setScale(textureScale, textureScale + 0.25);
+	}
+	else 
+	{
+		lazerTexture.loadFromFile("graphics/lazer.png");
+		setTexture(lazerTexture);
+		setRotation(270);
+		setScale(textureScale, textureScale);
+	}
 	lazerPos.x = startX; // -(getGlobalBounds().width / 2);
 	lazerPos.y = startY;
 	setPosition(lazerPos);
@@ -39,7 +49,8 @@ void ECE_LazerBlast::setShot(bool fired) {
 
 void ECE_LazerBlast::update(Time dt) {
 	if (isLazerFired) {
-		lazerPos.y += lazerSpeed * dt.asSeconds();
+		lazerPos.y += lazerSpeed * dt.asSeconds()
+			* (isEnemyLazer ? -1 : 1);
 	}
 	setPosition(lazerPos);
 }
